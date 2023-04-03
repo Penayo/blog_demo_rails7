@@ -1,0 +1,15 @@
+@import 'bootstrap/scss/bootstrap';
+@import 'bootstrap-icons/font/bootstrap-icons';
+
+.custom-icon.dropdown-toggle::after {
+  display: none !important;
+}
+
+.btn-light {
+  --bs-btn-hover-bg: #f0f0f0;
+  --bs-btn-hover-border-color: #f0f0f0;  
+}
+
+.btn-rounded {
+  border-radius: 1.5rem;
+}
